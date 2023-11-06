@@ -20,7 +20,7 @@ function updateCart() {
 
     if (cartItems.length === 0) {
         cartElement.innerHTML = "<p>Keranjang belanja kosong.</p>";
-        cartElement.innerHTML = "<p>Silahkan masukan belanjaan anda.</p>";} 
+        } 
         else {
         var totalPrice = 0;
         for (var i = 0; i < cartItems.length; i++) {
