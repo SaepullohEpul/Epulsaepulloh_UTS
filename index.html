@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penjualan Produk</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    <div id="product-list">
+        <div class="product">
+            <h3>Peci</h3>
+            <p>Harga: Rp100.000</p>
+            <button onclick="addToCart('Peci', 100000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Sarung BHS</h3>
+            <p>Harga: Rp900.000</p>
+            <button onclick="addToCart('Sarung BHS', 900000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Kemeja</h3>
+            <p>harga: Rp300.000</p>
+            <button onclick="addToCart('Kemeja', 300000)">Tambahkan ke Keranjang</button>
+        </div>
+    </div>
+
+    <h1>Keranjang Belanja</h1>
+    <div id="cart">
+        <p>Keranjang belanja kosong</p>
+        <p>Silahkan masukan belanjaan anda</p>
+    </div>
+
+    <h1>Checkout</h1>
+    <div id="checkout">
+        <p>Total Harga: Rp0</p>
+        <button onclick="checkout()">Bayar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

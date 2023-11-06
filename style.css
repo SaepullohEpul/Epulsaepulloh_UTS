@@ -1,0 +1,40 @@
+html{
+    background-color: aqua;
+}
+h1 {
+    color: #701d1d;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #701d1d;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:crimson;
+}
+
+#cart {
+    border: 1px solid #701d1d;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:crimson;
+}
+
+#checkout {
+    border: 1px solid #701d1d;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: center;
+    color:crimson;
+}
+button{
+    background-color: chartreuse;
+    color:blueviolet;
+}
